@@ -1,0 +1,8 @@
+#setwd("C://Users//KIIT//Desktop//")
+enzyme1=c(0.543,0.788,0.800,0.898,0.882)
+enzyme2=c(0.702,0.204,0.400,0.329,0.443)
+xaxis=c(4,25,50,85,100)
+png(file='linechart.png')
+plot(type='l',main='Enzyme activity w.r.t. Temperature', xlab='Temperature(Celcius)', ylab='Enzyme Type', x=xaxis,y=enzyme1,col='red',ylim=c(0.2,0.9))
+lines(type='l',y=enzyme2,col='blue',x=xaxis)
+dev.off()

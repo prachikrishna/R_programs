@@ -1,0 +1,5 @@
+v = c(1,17,100)
+print(is.factor(v))
+number = factor(v)
+print(is.factor(number))
+print(levels(number))

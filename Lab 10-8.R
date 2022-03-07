@@ -1,0 +1,5 @@
+library(xlsx)
+data = read.xlsx("student.xlsx", sheetIndex = 1)
+data1=read.xlsx("student.xlsx", sheetIndex = 2)
+data_merge=merge(data,data1)
+print(data_merge)

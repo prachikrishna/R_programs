@@ -1,0 +1,5 @@
+library(xlsx)
+data = read.xlsx("student.xlsx", sheetIndex = 1)
+print(data)
+data1=read.xlsx("student.xlsx", sheetIndex = 2)
+print(data1)

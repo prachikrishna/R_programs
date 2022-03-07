@@ -1,0 +1,4 @@
+data=read.csv("Student.csv")
+print(data)
+per=max(data$percentage)
+print(per)

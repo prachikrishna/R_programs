@@ -1,0 +1,25 @@
+{
+    "id": "7A66CF07",
+    "path": "~/R/PK/setup_tools.R",
+    "project_path": "setup_tools.R",
+    "type": "r_source",
+    "hash": "3976832745",
+    "contents": "",
+    "dirty": false,
+    "created": 1614782413129.0,
+    "source_on_save": true,
+    "relative_order": 8,
+    "properties": {
+        "tempName": "Untitled1",
+        "cursorPosition": "1,1",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1614783430,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1614783430151,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,5 @@
+data=read.csv("Student.csv")
+print(data)
+per=max(data$percentage)
+my_result = subset( data, percentage == per)
+print(my_result)
